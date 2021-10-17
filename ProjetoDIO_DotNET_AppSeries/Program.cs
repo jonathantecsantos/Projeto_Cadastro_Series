@@ -1,5 +1,4 @@
 ﻿using ProjetoDIO_DotNET_AppSeries.Class;
-using ProjetoDIO_DotNET_AppSeries.Enum;
 using System;
 
 namespace ProjetoDIO_DotNET_AppSeries
@@ -19,12 +18,18 @@ namespace ProjetoDIO_DotNET_AppSeries
                     case "1":
                         ListarSeriesCodigo();
                         break;
-                    //case "2":
-                    // ListarSeriesOrdemAlfabetica();
-                    case "3":
+                    case "2":
                         InserirSerie();
                         break;
-
+                    case "3":
+                        AtualizarSerie();
+                        break;
+                    case "4":
+                        ExcluirSerie();
+                        break;
+                    case "5":
+                        VisualizarSerie();
+                        break;
                     case "C":
                         Console.Clear();
                         break;
@@ -45,6 +50,7 @@ namespace ProjetoDIO_DotNET_AppSeries
             Console.WriteLine("Lista de séries: ");
 
             var lista = repositorio.Lista();
+           
 
             if (lista.Count == 0)
             {
@@ -54,7 +60,7 @@ namespace ProjetoDIO_DotNET_AppSeries
             foreach(var serie in lista)
             {
                 Console.WriteLine("#ID {0}: - {1}", serie.retornaId(), serie.retornaTitulo());
-            }
+            } 
         }
 
         private static void InserirSerie()
@@ -64,6 +70,70 @@ namespace ProjetoDIO_DotNET_AppSeries
             {
                 Console.WriteLine("{0} - {1} ", i, Enum.GetName(typeof(Genero), i));
             }
+            Console.WriteLine("Escolha o gênero entre as opções acima: ");
+            int entradaGenero = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Informe o título da Série:");
+            string entradaTitulo = Console.ReadLine();
+
+            Console.WriteLine("Informe o Ano da Série: ");
+            int entradaAno = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Informe a descrição da Série: ");
+            string entradaDescricao = Console.ReadLine();
+
+            Serie novaSerie = new Serie(id: repositorio.ProximoId(),
+                                         genero: (Genero)entradaGenero,
+                                         titulo: entradaTitulo,
+                                         ano: entradaAno,
+                                         descricao: entradaDescricao);
+            repositorio.Inserir(novaSerie);
+        }
+
+        public static void AtualizarSerie()
+        {
+            Console.WriteLine("Digite o Código/ID da Série: ");
+            int codigoSerie = int.Parse(Console.ReadLine());
+
+            foreach (int i in Enum.GetValues(typeof(Genero)))
+            {
+                Console.WriteLine("{0} - {1} ", i, Enum.GetName(typeof(Genero), i));
+            }
+            Console.WriteLine("Escolha o gênero entre as opções acima: ");
+            int entradaGenero = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Informe o título da Série:");
+            string entradaTitulo = Console.ReadLine();
+
+            Console.WriteLine("Informe o Ano da Série: ");
+            int entradaAno = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Informe a descrição da Série: ");
+            string entradaDescricao = Console.ReadLine();
+
+            Serie atualizaSerie = new Serie(id: repositorio.ProximoId(),
+                                         genero: (Genero)entradaGenero,
+                                         titulo: entradaTitulo,
+                                         ano: entradaAno,
+                                         descricao: entradaDescricao);
+            repositorio.Atualizar(codigoSerie, atualizaSerie);
+        }
+
+        public static void ExcluirSerie()
+        {
+            Console.WriteLine("Informe o código da Série a ser excluído: ");
+            int codigoSerie = int.Parse(Console.ReadLine());
+
+            repositorio.Excluir(codigoSerie);
+        }
+
+        public static void VisualizarSerie()
+        {
+            Console.WriteLine("Informe o código da Série a ser exibido:");
+            int codigoSerie = int.Parse(Console.ReadLine());
+
+            var serie = repositorio.RetornaPorId(codigoSerie);
+            Console.WriteLine(serie);
         }
         public static string ObterOpcaoUsuario()
         {

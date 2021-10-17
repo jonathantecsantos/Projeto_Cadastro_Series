@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Supervisor\\source\\repos\\ProjetoDIO_DotNET_AppSeries\\ProjetoDIO_DotNET_AppSeries\\ProjetoDIO_DotNET_AppSeries.csproj": {}
+    "C:\\Users\\Jonathan\\source\\repos\\Projeto_Cadastro_Series\\ProjetoDIO_DotNET_AppSeries\\ProjetoDIO_DotNET_AppSeries.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Supervisor\\source\\repos\\ProjetoDIO_DotNET_AppSeries\\ProjetoDIO_DotNET_AppSeries\\ProjetoDIO_DotNET_AppSeries.csproj": {
+    "C:\\Users\\Jonathan\\source\\repos\\Projeto_Cadastro_Series\\ProjetoDIO_DotNET_AppSeries\\ProjetoDIO_DotNET_AppSeries.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Supervisor\\source\\repos\\ProjetoDIO_DotNET_AppSeries\\ProjetoDIO_DotNET_AppSeries\\ProjetoDIO_DotNET_AppSeries.csproj",
+        "projectUniqueName": "C:\\Users\\Jonathan\\source\\repos\\Projeto_Cadastro_Series\\ProjetoDIO_DotNET_AppSeries\\ProjetoDIO_DotNET_AppSeries.csproj",
         "projectName": "ProjetoDIO_DotNET_AppSeries",
-        "projectPath": "C:\\Users\\Supervisor\\source\\repos\\ProjetoDIO_DotNET_AppSeries\\ProjetoDIO_DotNET_AppSeries\\ProjetoDIO_DotNET_AppSeries.csproj",
-        "packagesPath": "C:\\Users\\Supervisor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Supervisor\\source\\repos\\ProjetoDIO_DotNET_AppSeries\\ProjetoDIO_DotNET_AppSeries\\obj\\",
+        "projectPath": "C:\\Users\\Jonathan\\source\\repos\\Projeto_Cadastro_Series\\ProjetoDIO_DotNET_AppSeries\\ProjetoDIO_DotNET_AppSeries.csproj",
+        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jonathan\\source\\repos\\Projeto_Cadastro_Series\\ProjetoDIO_DotNET_AppSeries\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Supervisor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

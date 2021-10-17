@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjetoDIO_DotNET_AppSeries.Enum
+namespace ProjetoDIO_DotNET_AppSeries
 {
     enum Genero
     {

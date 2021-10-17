@@ -1,4 +1,4 @@
-﻿using ProjetoDIO_DotNET_AppSeries.Enum;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -32,6 +32,7 @@ namespace ProjetoDIO_DotNET_AppSeries.Class
             retorno += "Titulo: " + this.Titulo + Environment.NewLine;
             retorno += "Descrição: " + this.Descricao + Environment.NewLine;
             retorno += "Ano de Início: " + this.Ano + Environment.NewLine;
+            retorno += "Excluído?: " + this.Excluido + Environment.NewLine;
             return retorno;
         }
 
