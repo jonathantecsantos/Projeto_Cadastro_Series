@@ -26,3 +26,17 @@ C:\Users\Jonathan\source\repos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeri
 C:\Users\Jonathan\source\repos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\bin\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.dll
 C:\Users\Jonathan\source\repos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\bin\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.pdb
 C:\Users\Jonathan\source\repos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\obj\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.genruntimeconfig.cache
+C:\Users\Jonathan\Source\Repos\jonathantecsantos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\bin\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.exe
+C:\Users\Jonathan\Source\Repos\jonathantecsantos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\bin\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.deps.json
+C:\Users\Jonathan\Source\Repos\jonathantecsantos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\bin\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.runtimeconfig.json
+C:\Users\Jonathan\Source\Repos\jonathantecsantos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\bin\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.runtimeconfig.dev.json
+C:\Users\Jonathan\Source\Repos\jonathantecsantos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\bin\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.dll
+C:\Users\Jonathan\Source\Repos\jonathantecsantos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\bin\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.pdb
+C:\Users\Jonathan\Source\Repos\jonathantecsantos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\obj\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Source\Repos\jonathantecsantos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\obj\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonathan\Source\Repos\jonathantecsantos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\obj\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Source\Repos\jonathantecsantos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\obj\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.AssemblyInfo.cs
+C:\Users\Jonathan\Source\Repos\jonathantecsantos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\obj\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Source\Repos\jonathantecsantos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\obj\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.dll
+C:\Users\Jonathan\Source\Repos\jonathantecsantos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\obj\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.pdb
+C:\Users\Jonathan\Source\Repos\jonathantecsantos\Projeto_Cadastro_Series\ProjetoDIO_DotNET_AppSeries\obj\Debug\netcoreapp3.1\ProjetoDIO_DotNET_AppSeries.genruntimeconfig.cache
